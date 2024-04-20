@@ -6,15 +6,14 @@
 
     h1{
         text-align: left;
-        padding: 7px;
+        padding: 5px;
     }
 
     .form-container{
         display: flex;
         align-items: flex-start;
         width: 77vw;
-        height: 57vh;
-        
+        height: auto;
     }
 
     .container-buttons{
@@ -24,7 +23,6 @@
     }
 
     .bttn-form{
-        padding: 5px;
         width: 120px;
         height: 34px;
     }
