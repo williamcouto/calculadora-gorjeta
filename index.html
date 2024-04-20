@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/mobile.css" media="screen">
+    <title>Calcular a gorjeta</title>
+</head>
+<body>
+    <h1>Calculadora de Gorjeta</h1>
+    <section>
+    <form class="form-container">
+        <label for="value_conta">Valor da Conta</label>
+        <input type="number" id="value_conta">
+
+        <label for="qtd_pessoas">Quantas pessoas irão dividir a conta?</label>
+        <input type="number" id="qtd_pessoas">
+
+        <label for="sel_gorjeta">Taxa de serviço(%)</label>
+        <select id="sel_gorjeta">
+            <option value="0.1">10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.2">20%</option>
+            <option value="0.25">25%</option>
+            <option value="0.3">30%</option>
+        </select>
+
+        <div class="container-buttons">
+            <input type="button" class="bttn-form" value="Calcular" onclick="calcGorjeta()">
+            <input type="button" class="bttn-form"  value="Limpar" onclick="limpaForm()">
+        </div>
+            <span id="result"></span>
+            <span id="result_qtd_num"></span>
+            <span id="result_conta"></span>
+    </form>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
