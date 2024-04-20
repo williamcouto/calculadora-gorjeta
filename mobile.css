@@ -1,0 +1,31 @@
+/* Celulares */
+@media screen and (min-width:320px) and (max-width:780px) {
+    body{
+        font-size: 17px;
+    }
+
+    h1{
+        text-align: left;
+        padding: 7px;
+    }
+
+    .form-container{
+        display: flex;
+        align-items: flex-start;
+        width: 77vw;
+        height: 57vh;
+        
+    }
+
+    .container-buttons{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .bttn-form{
+        padding: 5px;
+        width: 120px;
+        height: 34px;
+    }
+}
