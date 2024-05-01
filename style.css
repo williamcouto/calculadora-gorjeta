@@ -5,11 +5,10 @@
     padding: 0px;
 }
 
-h1{
-    font-size: 2em;
-    text-align: center;
-    padding: 6px;
-    margin: 20px;
+h2{
+    font-size: 1.6em;
+    text-align: left;
+    padding: 10px;
 }
 
 body{
