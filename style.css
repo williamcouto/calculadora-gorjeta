@@ -61,6 +61,7 @@ select{
    background-color: #058E3F;
     color: #ffff;
     border: none;
+    border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
     padding: 5px;
