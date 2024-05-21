@@ -58,9 +58,10 @@ select{
 }
 
 .bttn-form{
-    background-color: #b81f04;
+   background-color: #058E3F;
     color: #ffff;
-    border: solid 1px #000;
+    border: none;
+    font-weight: bold;
     cursor: pointer;
     padding: 5px;
     margin: 15px 6px 7px 4px;
