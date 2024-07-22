@@ -48,7 +48,7 @@ span{
 }
 
 input[type="number"]{
-    width: 190px;
+    width: 250px;
     height: 23px;
     padding: 4px;
     border: 1px solid rgb(0, 0, 0);
@@ -59,13 +59,6 @@ input[type="number"]{
 label{
     margin-bottom: 5px;
     padding: 6px
-}
-
-select{
-    border: 1px solid rgb(0, 0, 0);
-    width: 130px;
-    height: 27px;
-    padding: 5px;
 }
 
 .bttn-form{
