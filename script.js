@@ -6,9 +6,13 @@ function calcGorjeta(){
     let resultcont = document.getElementById("result_conta")
     let result_pessoas = document.getElementById("result_qtd_num")
 
-    let buttons = document.querySelectorAll("button")
+    let buttons = document.querySelectorAll("button").value
 
-    buttons.forEach()
+    buttons.forEach(button => {
+        button.addEventListener('click', function(){
+            const valor_bttn = this.value
+        })
+    })
 
     if(valor_conta == ''){
         window.alert("Campo vazio! Insira um valor válido")
