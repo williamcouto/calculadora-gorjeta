@@ -24,16 +24,15 @@
         
         <label>Taxa de serviço(%)</label>
             <div class="box-bttns-tip">
-                <button class="bttn-gorj" value="0.1" onclick="clickTip()">10%</button>
-                <button class="bttn-gorj" value="0.15" onclick="clickTip()">15%</button>
-                <button class="bttn-gorj" value="0.2" onclick="clickTip()">20%</button>
-                <button class="bttn-gorj" value="0.25" onclick="clickTip()">25%</button>
-                <button class="bttn-gorj" value="0.3" onclick="clickTip()">30%</button>
+                <input type="button" value="10%" onclick="clickTip(this)" data-gorj="0.1">
+                <input type="button" value="15%" onclick="clickTip(this)" data-gorj="0.15">
+                <input type="button" value="20%" onclick="clickTip(this)" data-gorj="0.2">
+                <input type="button" value="25%" onclick="clickTip(this)" data-gorj="0.25">
+                <input type="button" value="30%" onclick="clickTip(this)" data-gorj="0.3">
             </div>
 
         <div class="container-buttons">
             <input type="button" class="bttn-form" value="Calcular" onclick="calcGorjeta()">
-            <input type="button" class="bttn-form"  value="Limpar" onclick="limpaForm()">
         </div>
             <span id="result"></span>
             <span id="result_qtd_num"></span>
