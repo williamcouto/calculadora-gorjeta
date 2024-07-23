@@ -12,15 +12,15 @@ h2{
 }
 
 body{
-    background-color: #fffde8;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: #F7F7FF;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    background-color: #ffff;
+    background-color: #ffffff;
     padding: 13px;
     margin: auto;
     margin-top: 23px;
@@ -42,6 +42,7 @@ body{
 }
 
 span{
+    padding: 5px;
     font-weight: bold;
     margin: 12px;
 }
@@ -62,6 +63,8 @@ input[type="number"]{
     padding: 4px;
     border: 1px solid #000;
     border-radius: 4px;
+    background-color: #132A13;
+    color: #ffffff;
 }
 
 label{
@@ -71,6 +74,6 @@ label{
 
 .box-bttns-tip{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: row;
+    gap: 25px;
 }
