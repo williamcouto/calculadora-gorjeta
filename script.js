@@ -8,11 +8,6 @@ function calcGorjeta(){
 
     let buttons = document.querySelectorAll("button").value
 
-    buttons.forEach(button => {
-        button.addEventListener('click', function(){
-            const valor_bttn = this.value
-        })
-    })
 
     if(valor_conta == ''){
         window.alert("Campo vazio! Insira um valor válido")
