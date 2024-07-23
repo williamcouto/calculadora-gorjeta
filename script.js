@@ -3,7 +3,6 @@ function clickTip(element){
     calcGorjeta(taxa)
 }
 
-
 function calcGorjeta(taxa){
     let valor_conta = Number(document.getElementById("value_conta").value)
     //let taxa = Number(document.getElementById("sel_gorjeta").value)
@@ -17,7 +16,7 @@ function calcGorjeta(taxa){
         }
         //valor da gorjeta
         let valor_gorj = valor_conta * taxa
-        result_gorjet.innerHTML = `Valor da gorjeta: R$  ${valor_gorj.toFixed(2)}`
+        result_gorjet.textContent = `Valor da gorjeta: R$${valor_gorj.toFixed(2)}`
         
         //total da conta
         let totalconta = valor_conta + valor_gorj
