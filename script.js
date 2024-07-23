@@ -1,12 +1,12 @@
 function clickTip(element){
-    const taxa = Number(element.getAtribute('data-gorj'))
+    const taxa = Number(element.getAttribute('data-gorj'))
     calcGorjeta(taxa)
 }
 
 
 function calcGorjeta(taxa){
     let valor_conta = Number(document.getElementById("value_conta").value)
-    // let taxa = Number(document.getElementById("sel_gorjeta").value)
+    //let taxa = Number(document.getElementById("sel_gorjeta").value)
     let num_pessoas = Number(document.getElementById("qtd_pessoas").value)
     let result_gorjet = document.getElementById("result")
     let resultcont = document.getElementById("result_conta")
