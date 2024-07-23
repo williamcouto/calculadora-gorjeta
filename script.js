@@ -6,23 +6,27 @@ function calcGorjeta(){
     let resultcont = document.getElementById("result_conta")
     let result_pessoas = document.getElementById("result_qtd_num")
 
-    let buttons = document.querySelectorAll("button").value
+    let buttons = Number(document.getElementsByClassName("bttn-gorj").value)
 
-
-    if(valor_conta == ''){
-        window.alert("Campo vazio! Insira um valor válido")
-    }
-    //valor da gorjeta
-    let valor_gorj = valor_conta * taxa
-    result_gorjet.innerHTML = `Valor da gorjeta: R$  ${valor_gorj.toFixed(2)}`
+    function clickTip(){
+        if(valor_conta == ''){
+            window.alert("Campo vazio! Insira um valor válido")
+        }
+        //valor da gorjeta
+        let valor_gorj = valor_conta * taxa
+        result_gorjet.innerHTML = `Valor da gorjeta: R$  ${valor_gorj.toFixed(2)}`
+        
+        //total da conta
+        let totalconta = valor_conta + valor_gorj
+        resultcont.innerHTML = `Valor Total: R$ ${totalconta.toFixed(2)}`
     
-    //total da conta
-    let totalconta = valor_conta + valor_gorj
-    resultcont.innerHTML = `Valor Total: R$ ${totalconta.toFixed(2)}`
+        //divisão por pessoa
+        let valor_qtd_pessoas = totalconta / num_pessoas
+        result_pessoas.innerHTML = `Valor p/ pessoas: R$ ${valor_qtd_pessoas.toFixed(2)}`
+    
 
-    //divisão por pessoa
-    let valor_qtd_pessoas = totalconta / num_pessoas
-    result_pessoas.innerHTML = `Valor p/ pessoas: R$ ${valor_qtd_pessoas.toFixed(2)}` 
+    }
+    
 }
 
 function limpaForm(){
