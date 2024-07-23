@@ -8,19 +8,19 @@
     <title>Calcular a gorjeta</title>
 </head>
 <body>
-    <section>
+<section>
     <div class="container">
         <h2>Calculadora de Gorjeta</h2>
-            <div class="box-count">
-                <div>
-                    <label for="value_conta">Valor da Conta</label>
-                    <input type="number" id="value_conta">
-                </div>
-                <div>
-                    <label for="qtd_pessoas">Quantas pessoas irão dividir a conta?</label>
-                    <input type="number" id="qtd_pessoas">
-                </div>
+        <div class="box-count">
+            <div>
+                <label for="value_conta">Valor da Conta</label>
+                <input type="number" id="value_conta">
             </div>
+            <div>
+                <label for="qtd_pessoas">Quantas pessoas irão dividir a conta?</label>
+                <input type="number" id="qtd_pessoas">
+            </div>
+        </div>
         
         <label>Taxa de serviço(%)</label>
             <div class="box-bttns-tip">
@@ -30,12 +30,11 @@
                 <input type="button" value="25%" onclick="clickTip(this)" data-gorj="0.25">
                 <input type="button" value="30%" onclick="clickTip(this)" data-gorj="0.3">
             </div>
-
-            <span>
-                <h3 id="result">Valor da gorjeta: </h3>
-                <h3 id="result_qtd_num">Valor p/ pessoas:</h3>
-                <h3 id="result_conta">Valor Total:</h3>
-            </span>  
+        <span>
+            <h3 id="result">Valor da gorjeta: </h3>
+            <h3 id="result_qtd_num">Valor p/ pessoas:</h3>
+            <h3 id="result_conta">Valor Total:</h3>
+        </span>  
     </div>
     </section>
 </body>
