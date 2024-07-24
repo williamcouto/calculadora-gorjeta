@@ -42,10 +42,15 @@ body{
     flex-direction: column;
 }
 
-span{
-    padding: 5px;
+#box-result{
+    background-color: #D2F898;
+    width: 46vw;
+    height: 13vh;
+    padding: 12px;
+    border-radius: 4px;
     font-weight: bold;
     margin: 12px;
+    margin-top: 40px;
 }
 
 input[type="number"]{
