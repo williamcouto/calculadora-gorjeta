@@ -19,7 +19,7 @@ h3{
 
 body{
     font-family: 'Azeret Mono', Arial, Helvetica, sans-serif;
-    background-color: #eaf5df;
+    background-color: #F6FCEB; /* #eaf5df; */
 }
 
 .container{
@@ -52,7 +52,6 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex: 1;
     background-color: #D2F898;
     width: 50vw;
     border-radius: 4px;
