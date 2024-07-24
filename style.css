@@ -12,6 +12,11 @@ h2{
     padding: 10px;
 }
 
+h3{
+    line-height: 1.3em;
+    padding-left: 5px;
+}
+
 body{
     font-family: 'Azeret Mono', Arial, Helvetica, sans-serif;
     background-color: #eaf5df;

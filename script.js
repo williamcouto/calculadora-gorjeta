@@ -16,11 +16,11 @@ function calcGorjeta(taxa){
         }
         //valor da gorjeta
         let valor_gorj = valor_conta * taxa
-        result_gorjet.textContent = `Valor da gorjeta: R$${valor_gorj.toFixed(2)}`
+        result_gorjet.textContent = `Valor da gorjeta: R$ ${valor_gorj.toFixed(2)}`
         
         //total da conta
         let totalconta = valor_conta + valor_gorj
-        resultcont.innerHTML = `Valor Total: R$ ${totalconta.toFixed(2)}`
+        resultcont.innerHTML = `Total: R$ ${totalconta.toFixed(2)}`
     
         //divisão por pessoa
         let valor_qtd_pessoas = totalconta / num_pessoas
