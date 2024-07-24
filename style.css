@@ -23,7 +23,7 @@ body{
     background-color: #ffffff;
     padding: 13px;
     margin: auto;
-    margin-top: 23px;
+    margin-top: 33px;
     width: 50vw;
     height: auto;
     border-radius: 10px;
@@ -52,7 +52,9 @@ input[type="number"]{
     padding: 4px;
     border: 1px solid rgb(0, 0, 0);
     border: none;
-    background-color: #f4fbff;
+    font-size: 1em;
+    text-align: right;
+    background-color: #f8f8f8;
     border-radius: 5px;
     margin-bottom: 10px;
 }
