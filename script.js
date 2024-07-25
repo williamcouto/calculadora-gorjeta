@@ -24,5 +24,5 @@ function calcGorjeta(taxa){
     
         //divisão por pessoa
         let valor_qtd_pessoas = totalconta / num_pessoas
-        result_pessoas.innerHTML = `Valor p/ pessoas: R$ ${valor_qtd_pessoas.toFixed(2)}`
+        result_pessoas.innerHTML = `Total p/ pessoas: R$ ${valor_qtd_pessoas.toFixed(2)}`
 }
