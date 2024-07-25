@@ -19,7 +19,7 @@ h3{
 
 body{
     font-family: 'Azeret Mono', Arial, Helvetica, sans-serif;
-    background-color: #F6FCEB; /* #eaf5df; */
+    background-color:  #eaf5df;
 }
 
 .container{
@@ -31,8 +31,9 @@ body{
     margin: auto;
     margin-top: 33px;
     width: 51vw;
-    height: 55vh;
+    height: 60vh;
     border-radius: 10px;
+    border: 1px solid #00000052
 }
 
 .box-count{
@@ -84,7 +85,7 @@ input[type="number"]{
     padding: 4px;
     border: none;
     border-radius: 4px;
-    background-color: #31572C;
+    background-color: #292E1E;
     color: #ffffff;
 }
 
