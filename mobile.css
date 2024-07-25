@@ -5,9 +5,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 83vw;
+        width: 86vw;
         height: 90vh;
-        margin-top: 12px;
+        margin-top: 11px;
     }
 
     .box-count{
@@ -19,7 +19,7 @@
     }
 
     input[type="number"]{
-        width: 80vw;
+        width: 84vw;
         height: 35px;
     }
 
