@@ -96,6 +96,6 @@ label{
 
 .box-bttns-tip{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 25px;
 }
