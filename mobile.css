@@ -2,6 +2,9 @@
 @media screen and (min-width:320px) and (max-width:780px) {
 
     .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 83vw;
         height: 64vh;
         margin-top: 15px;
@@ -27,9 +30,8 @@
     }
     
     #box-result{
-        display: flex;
-        align-items: baseline;
-        width: 83vw;
+        text-align: center;
+        width: 80vw;
         height: 30vh;
         padding: 10px;
     }
