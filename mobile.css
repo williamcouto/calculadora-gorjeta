@@ -31,8 +31,8 @@
     }
     
     #box-result{
-        text-align: left;
-        width: 72vw;
+        text-align: center;
+        width: 75vw;
         padding: 8px;
     }
 }
