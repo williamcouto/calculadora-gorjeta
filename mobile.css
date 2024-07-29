@@ -6,8 +6,8 @@
         flex-direction: column;
         align-items: center;
         width: 86vw;
-        height: 90vh;
-        margin-top: 11px;
+        height: 93vh;
+        margin-top: 10px;
     }
 
     .box-count{
@@ -15,18 +15,18 @@
     }
 
     label{
-        padding: 8px;
+        padding: 6px;
     }
 
     input[type="number"]{
-        width: 84vw;
-        height: 35px;
+        width: 82vw;
+        height: 36px;
     }
 
     .box-bttns-tip{
         display: flex;
         justify-content: center;
-        gap: 18px;
+        gap: 20px;
         flex-wrap: wrap;
     }
     
