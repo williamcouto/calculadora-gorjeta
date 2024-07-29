@@ -30,7 +30,7 @@ body{
     padding: 13px;
     margin: auto;
     margin-top: 33px;
-    width: 51vw;
+    width: 47vw;
     height: 60vh;
     border-radius: 11px;
     border: none;
@@ -58,7 +58,7 @@ body{
     border-radius: 4px;
     font-weight: bold;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 22px;
     box-sizing: border-box;
 }
 
@@ -87,7 +87,7 @@ input[type="number"]{
     padding: 4px;
     border: none;
     border-radius: 5px;
-    background-color: #292E1E;
+    background-color: #2E5339;
     color: #ffffff;
 } 
 
