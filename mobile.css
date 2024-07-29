@@ -31,9 +31,9 @@
     }
     
     #box-result{
-        margin-top: 20px;
-        width: 82vw;
-        height: 23vh;
+        margin-top: 25px;
+        width: 83vw;
+        height: 20vh;
         padding: 7px;
         border-radius: 3px;
     }
@@ -41,6 +41,5 @@
     h3{
         font-weight: lighter;
         text-align: center;
-        
     }
 }
