@@ -19,7 +19,7 @@ h3{
 
 body{
     font-family: 'Azeret Mono', Arial, Helvetica, sans-serif;
-    background-color:  #eaf5df;
+    background-color: #eaf5cf;
 }
 
 .container{
@@ -32,8 +32,9 @@ body{
     margin-top: 33px;
     width: 51vw;
     height: 60vh;
-    border-radius: 10px;
-    border: 1px solid #00000052
+    border-radius: 11px;
+    border: none;
+    border: 1px solid #0000005d
 }
 
 .box-count{
@@ -79,15 +80,17 @@ input[type="number"]{
 .box-bttns-tip > input{
     font-family: 'Azeret Mono', Arial, Helvetica, sans-serif;
     font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 2px;
     cursor: pointer;
-    width: 80px;
-    height: 60px;
+    width: 82px;
+    height: 61px;
     padding: 4px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #292E1E;
     color: #ffffff;
-}
+} 
 
 label{
     margin-bottom: 5px;
