@@ -31,12 +31,16 @@
     }
     
     #box-result{
-        text-align: center;
-        width: 80vw;
-        padding: 8px;
+        margin-top: 20px;
+        width: 82vw;
+        height: 23vh;
+        padding: 7px;
+        border-radius: 3px;
     }
 
     h3{
         font-weight: lighter;
+        text-align: center;
+        
     }
 }
